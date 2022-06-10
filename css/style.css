@@ -332,6 +332,23 @@ li {
 a {
   text-decoration: none; }
 
+.video {
+  padding: 40px 0;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .video video {
+    margin-bottom: 20px; }
+
 @media screen and (max-width: 768px) {
   a.mobile-menu-button {
     display: -webkit-box;
